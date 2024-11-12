@@ -307,8 +307,3 @@ The scraper is designed to handle various error scenarios gracefully:
 
 All errors and warnings are recorded in the `data_fetch.log` file for review and troubleshooting.
 
-#   B a l l S c r a p p e r 
- 
- #   B a l l S c r a p p e r 
- 
- 

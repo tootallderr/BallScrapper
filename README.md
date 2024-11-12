@@ -1,9 +1,3 @@
-# ESPN Sports Data Scraper
-
-![ESPN Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png)
-
-**ESPN Sports Data Scraper** is a comprehensive Python-based tool designed to fetch, process, and store a wide range of sports data from ESPN's public APIs. It supports multiple major sports leagues, including NFL, NBA, MLB, NHL, WNBA, and College Football. The scraper efficiently handles data retrieval, caching, rate limiting, and data normalization to ensure reliable and up-to-date information for analysis, reporting, or integration into other applications.
-
 ## Table of Contents
 
 - [Features](#features)
@@ -37,35 +31,6 @@
 - **Python 3.7 or higher**: Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
 - **pip**: Python package installer, typically included with Python installations.
 
-## Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/espn-sports-data-scraper.git
-   cd espn-sports-data-scraper
-   ```
-
-2. **Create a Virtual Environment (Optional but Recommended)**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Required Dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   *If a `requirements.txt` file is not provided, install the necessary packages manually:*
-
-   ```bash
-   pip install calendar os re threading time json logging requests pandas urllib3 tqdm
-   ```
-
-   **Note**: Some modules like `os`, `re`, `threading`, `time`, `json`, and `logging` are part of Python's standard library and do not require installation.
 
 ## Configuration
 
